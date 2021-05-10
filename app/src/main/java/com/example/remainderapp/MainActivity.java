@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickFindApplication(View view) {
-        
+        appList=findViewById(R.id.systemapps);
+        appList.setText("Device applications : ");
+        systemApps=findViewById(R.id.applist);
     }
 }
